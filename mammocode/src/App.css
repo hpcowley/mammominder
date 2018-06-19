@@ -1,25 +1,34 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: grey;
+  height: 75px;
+  padding: 10px;
+  text-align: left;
 }
 
 .App-title {
   font-size: 1.5em;
+  color: white;
 }
 
-.App-intro {
+.App-footer {
   font-size: large;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+}
+
+.footer-text {
+  font-size: .75em;
+  color: white;
+}
+
+.Quiz {
+  padding: 20px;
+  box-align: center;
+  margin: auto;
+  width: 50%;
 }
 
 @keyframes App-logo-spin {
